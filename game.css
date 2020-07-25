@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-image: url("https://i1.faceprep.in/ProGrad/guess-number-bg.png");
+    background-color: darkcyan;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    line-height: 1.6;
+    font-family: 'Ranchers', cursive;
+    padding: 0 20px;
+}
+
+.button {
+    background-color: tomato;
+    margin: 30px 0;
+    padding: 10px 15px;
+    font-size: 1.2em;
+    color: black;
+    cursor: pointer;
+    text-align: center;
+    min-width: 100px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin: 20px;
+}
+
+#input-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+input {
+    margin: 30px;
+    width: 400px;
+    font-size: 130%;
+    height: 2.5em;
+}
+
+#message {
+    font-size: 1.5em;
+    background-color: yellowgreen;
+    padding: 5px 15px;
+}
